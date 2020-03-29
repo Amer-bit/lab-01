@@ -1,0 +1,21 @@
+#intro{
+    position: relative;
+    height: auto;
+    text-align: center;
+    
+}
+
+#content{
+    display: inline-block;
+    position: relative;
+    
+
+}
+footer {
+    position: relative;
+    padding: 40px 238px;
+    border: 1px solid grey;
+    
+}
+
+
