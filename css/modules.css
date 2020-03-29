@@ -1,0 +1,50 @@
+#intro article:first-child{
+    border: 1px solid grey;
+    height: 70px;    
+}
+#intro article:nth-child(2){
+    border: 1px solid grey;
+    height: 150px;
+}
+
+#intro article:nth-child(3), #intro article:last-child{
+    height: 125px;
+    border: 1px solid grey;
+    border: 1px solid grey;
+}
+
+
+#intro article:first-child p{
+    
+    margin: 27px 0;
+}
+
+#intro article:nth-child(2) p{
+    
+    margin:14.078% 0;
+}
+
+#intro article:nth-child(3) p, #intro article:last-child p {
+    margin:11.347% 0;
+}
+
+
+#content article{
+    float: left;
+    border: 1px solid grey;
+    width: 238px;
+    height: 250px;
+    
+    
+}
+
+#content article p{
+    padding: 120px 125px;
+}
+
+@media  (min-width: 768px){
+    html{
+        background-color: blue;
+    }
+}
+
