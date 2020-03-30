@@ -10,7 +10,6 @@
 #intro article:nth-child(3), #intro article:last-child{
     height: 125px;
     border: 1px solid grey;
-    border: 1px solid grey;
 }
 
 
@@ -30,21 +29,52 @@
 
 
 #content article{
+    box-sizing: border-box;
     float: left;
     border: 1px solid grey;
-    width: 238px;
-    height: 250px;
-    
-    
+    width: 240px;
+    height: 250px;   
 }
 
 #content article p{
+    box-sizing: border-box;
     padding: 120px 125px;
 }
 
 @media  (min-width: 768px){
-    html{
-        background-color: blue;
+    article{
+        box-sizing: border-box;
     }
+
+    #intro article:first-child{
+        box-sizing: border-box;
+        border: 1px solid grey;
+        height: 100px;
+    }
+
+    #intro article:nth-child(2){
+        box-sizing: border-box;
+        border: 1px solid grey;
+        width: 200px;
+        height: 600px;
+        float: left;
+    }
+
+    #intro article:nth-child(3), #intro article:last-child{
+        height: 200px;
+        width: 380px;
+        border: 1px solid grey;
+        float: left;
+        
+    }
+    #content article{
+        box-sizing: border-box;
+        display: inline-block;
+        border: 1px solid grey;
+        width: 190px;
+        height: 250px;        
+    }
+
+
 }
 
