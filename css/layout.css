@@ -12,9 +12,20 @@
 
 }
 footer {
+    display: block;
     position: relative;
+    box-sizing: border-box;
     padding: 40px 238px;
     border: 1px solid grey;
+    
+}
+
+@media  (min-width: 768px){
+    footer {
+      display: inline-block;
+      height: 150px;
+      width: 760px;
+    }
     
 }
 
